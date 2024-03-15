@@ -1,14 +1,11 @@
-import { Header } from './components/header'
-import { Container } from './style/GlobalStyle'
-
+import { Header } from './components/Header/index.jsx'
+import { TopContent } from './components/TopHeader/index.jsx'
 
 function App() {
-
   return (
    <>
-    <Container>
-     <Header />
-    </Container>
+    <TopContent />
+    <Header />
    </>
   )
 }
