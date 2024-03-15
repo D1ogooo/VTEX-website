@@ -1,4 +1,4 @@
-import { Content, Logo, Search } from './style'
+import { Content, Logo, Search, Icons } from './style'
 import { Container } from '../../style/GlobalStyle'
 import ImageLogo from '../../assets/Caminho 1551.svg'
 import SearchIcon from '../../assets/search icon.svg'
@@ -16,16 +16,20 @@ export const Header = () => {
       <img src={ImageLogo}/>
       <p>VTEX</p>
      </Logo>
+
      <nav>
      <Search>
       <input type="search" id="search" placeholder='O que você está buscando?'/>
       <img src={SearchIcon}/>
      </Search>
-      <img src={FirstIcon}/>
+     </nav>
+     
+     <Icons>
+     <img src={FirstIcon}/>
       <img src={SecondIcon}/>
       <img src={ThirdIcon}/>
       <img src={ForIcon}/>
-     </nav>
+     </Icons>
     </Content>
    </Container>
   </>
