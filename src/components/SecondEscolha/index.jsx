@@ -10,7 +10,7 @@ export const SecondEscolha = () => {
       {Sessoes.map((card) => (
        <section key={card.id}>
        <div id='card'>
-        <img src={card.img} alt={card.alt} />
+        <img src={card.img}/>
        </div>
         <p>{card.text}</p>
        </section>
