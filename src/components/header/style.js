@@ -71,6 +71,7 @@ export const Search = styled.div`
   font-size: 13px;
   color: #9F9F9F;
   width: 100%;
+  height: 3rem;
   margin-left: 1.25rem;
   border-radius: .625rem;
   border: none;
@@ -81,4 +82,8 @@ export const Search = styled.div`
 export const Icons = styled.section`
  display: flex;
  gap: 2rem;
+
+ img {
+  cursor: pointer;
+ }
 `
