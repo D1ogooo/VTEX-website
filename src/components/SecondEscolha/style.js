@@ -1,11 +1,20 @@
 import styled from 'styled-components'
 
-export const SessaoDeEscolhas = styled.section`
- 
-`
-
 export const Content = styled.section`
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ margin-top: -3.4375rem;
+ margin-bottom: 1.25rem;
+  
+ #card {
+  padding: 1.25rem;
+ }
+
  div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 8rem;
   height: 8rem;
   border-radius: .625rem;

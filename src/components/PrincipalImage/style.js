@@ -4,11 +4,10 @@ export const Content = styled.div`
  width: 100%;
  display: flex;
  align-items: center;
- margin-top: 9.5rem;
+ margin-top: -6.2rem;
  
  img {
   width: 100%;
-  position: fixed;
  }
 
  h1 {
