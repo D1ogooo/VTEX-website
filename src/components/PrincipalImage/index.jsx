@@ -8,7 +8,10 @@ export const PrincipalImage = () => {
    <Content>
     <img src={Caminho} id='principal_image'/>
     <Container>
-     <h1>Venha conhecer nossas <br/>promoções<br/>50% Off nos produtos</h1>
+    
+     <div>
+         <h1>Venha conhecer nossas <br/>promoções<br/>50% Off nos produtos</h1>
+     </div>
      <ButtonProduto>
       Ver produto
      </ButtonProduto>

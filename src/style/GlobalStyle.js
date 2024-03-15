@@ -14,5 +14,4 @@ export const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
  width: 90%;
  margin: 0 auto;
- z-index: 1;
 `

@@ -3,8 +3,9 @@ import styled from 'styled-components'
 export const Content = styled.div`
  width: 100%;
  display: flex;
- align-items: center;
- margin-top: -6.2rem;
+flex-direction: column;
+ margin-top: 1rem;
+ z-index: -1;
  
  img {
   width: 100%;
