@@ -80,5 +80,5 @@ export const Search = styled.div`
 
 export const Icons = styled.section`
  display: flex;
- gap: .625rem;
+ gap: 2rem;
 `
