@@ -17,23 +17,16 @@ export const FirstButton = styled.button`
  height: 1.125rem;
  background: none;
  border: none;
+ cursor: pointer;
 `
 
-export const SecondButton = styled(FirstButton)`
- 
-`
+export const SecondButton = styled(FirstButton)``
 
-export const ThirdButton = styled(FirstButton)`
- 
-`
+export const ThirdButton = styled(FirstButton)``
 
-export const ForButton = styled(FirstButton)`
- 
-`
+export const ForButton = styled(FirstButton)``
 
-export const FiveButton = styled(FirstButton)`
- 
-`
+export const FiveButton = styled(FirstButton)``
 
 export const SixButton = styled(FirstButton)`
  color: #F71963;
