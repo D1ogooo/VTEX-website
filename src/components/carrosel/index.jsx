@@ -26,10 +26,12 @@ export const Carrosel = () => {
      <Card key={tech.id}>
       <img src={tech.img}/>
        <Title>{tech.title}</Title>
-      <h2>{tech.subtitle}</h2>
-      <p>{tech.antepenultimoTitle}</p>
-      <h3>{tech.penultimoTitle}</h3>
-      <h4>{tech.ultimoTitle}</h4>
+      <div className='container_card'>
+      <h2 id='subtitle'>{tech.subtitle}</h2>
+      <p id='antepenultimo'>{tech.antepenultimoTitle}</p>
+      <h3 id='penultimo'>{tech.penultimoTitle}</h3>
+      <h4 id='ultimo'>{tech.ultimoTitle}</h4>
+      </div>
       <ButtonComprar>
        comprar
       </ButtonComprar>

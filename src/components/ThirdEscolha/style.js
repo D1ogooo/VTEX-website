@@ -42,6 +42,11 @@ export const Second = styled.section`
  justify-content: center;
  margin-bottom: .9375rem;
 
+ #principal {
+  font-family: 'Poppins', sans-serif;
+  color: #F71963;
+ }
+
  button {
   cursor: pointer;
   width: 123.2188rem;

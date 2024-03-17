@@ -5,7 +5,8 @@ import { Container } from '../../style/GlobalStyle'
 export const ThirdEscolha = () => {
   return (
     <>
-     <Container>
+
+    <Container>
       <Content>
        <First>
        <hr id='first_line'/>
@@ -14,19 +15,21 @@ export const ThirdEscolha = () => {
        </First>
 
        <Second>
-        <button>celular</button>
+        <button id='principal'>celular</button>
         <button>acessórios</button>
         <button>tablets</button>
         <button>notebooks</button>
         <button>TVs</button>
         <button>Ver todos</button>
        </Second>
-       
-       <Third>
-        <Carrosel/>
-       </Third>
       </Content>
-     </Container>
-    </>
-  )
+      </Container>
+
+    <Container>
+     <Third>
+      <Carrosel/>
+     </Third>
+    </Container>
+  </>
+ )
 }
