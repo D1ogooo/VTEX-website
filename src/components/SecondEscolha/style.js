@@ -6,7 +6,19 @@ export const Content = styled.section`
  justify-content: space-around;
  margin-top: -3.4375rem;
  margin-bottom: 1.25rem;
-  
+ 
+ section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p { 
+   margin-top: 20px;
+   display: flex;
+   width: auto;
+  }
+ }
+
  #card {
   padding: 1.25rem;
  }

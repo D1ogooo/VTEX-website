@@ -14,4 +14,9 @@ export const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
  width: 90%;
  margin: 0 auto;
+
+ #principal_image h1 {
+   z-index: 1;
+   margin-top: -23.125rem;
+ }
 `

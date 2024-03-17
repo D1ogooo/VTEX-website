@@ -3,9 +3,8 @@ import styled from 'styled-components'
 export const Content = styled.div`
  width: 100%;
  display: flex;
-flex-direction: column;
- margin-top: 1rem;
- z-index: -1;
+ flex-direction: column;
+ z-index: 1;
  
  img {
   width: 100%;
@@ -32,4 +31,5 @@ export const ButtonProduto = styled.button`
  font-weight: 600;
  font-size: 1rem;
  color: #fff;
+ margin-bottom: 180px;
 `

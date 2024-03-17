@@ -8,9 +8,8 @@ export const PrincipalImage = () => {
    <Content>
     <img src={Caminho} id='principal_image'/>
     <Container>
-    
-     <div>
-         <h1>Venha conhecer nossas <br/>promoções<br/>50% Off nos produtos</h1>
+     <div id='principal_image'>
+      <h1>Venha conhecer nossas <br/>promoções<br/>50% Off nos produtos</h1>
      </div>
      <ButtonProduto>
       Ver produto
