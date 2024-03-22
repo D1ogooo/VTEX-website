@@ -6,6 +6,8 @@ import { PrincipalImage } from './components/PrincipalImage/index.jsx'
 import { ThirdEscolha } from './components/ThirdEscolha/index.jsx'
 import { ForEscolha } from './components/ForEscolha/index.jsx'
 import { FiveEscolha } from './components/FiveEscolha/index.jsx'
+import SixEscolha from './components/SixEscolha/index.jsx'
+import SevenEscolha from './components/SevenEscolha/index.jsx'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
     <ThirdEscolha/>
     <ForEscolha/>
     <FiveEscolha/>
+    <SixEscolha/>
+    <SevenEscolha/>
    </>
   )
 }

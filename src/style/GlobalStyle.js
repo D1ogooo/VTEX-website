@@ -16,7 +16,7 @@ export const Container = styled.div`
  margin: 0 auto;
 
  #principal_image h1 {
-   z-index: 1;
-   margin-top: -23.125rem;
+  z-index: 1;
+  margin-top: -23.125rem;
  }
 `
